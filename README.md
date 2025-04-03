@@ -21,10 +21,18 @@
 ## 项目目录
 
 ```bash
---project
- |--upload/    
- | |--repo.json
- |--README.md
- |--server.py
- |--wfuzz-code.tar.gz   # 用于测试上传的包
+--wfuzz-package-manager
+|
+|--wfuzz-server
+|  |--upload/    
+|  |  |--repo.json
+|  |--README.md
+|  |--server.py
+|
+|--wfuzz-client
+|  |--src/
+|  |--Cargo.lock
+|  |--Cargo.toml
+|  |--wfuzz-code.tar.gz   # 用于测试上传的包
+|
 ```
