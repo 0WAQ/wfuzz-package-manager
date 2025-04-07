@@ -81,7 +81,7 @@ pub async fn download_package(package_name: &str)
     Ok(())
 }
 
-/// 从创建下载文件
+/// 创建下载目录
 pub fn get_and_create_dir(package_name: &str) -> std::io::Result<File> {
     let download_dir = std::env::current_dir().unwrap();
     let mut download_dir = String::from(download_dir.to_str().unwrap());
