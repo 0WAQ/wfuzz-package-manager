@@ -1385,7 +1385,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "wfuzz-cli"
+name = "wfuzz-client"
 version = "0.1.0"
 dependencies = [
  "reqwest",

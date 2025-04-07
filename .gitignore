@@ -1,3 +1,4 @@
 .vscode
 .wfuzztmp
-/target
+wfuzz-client/target
+wfuzz-server/temp_extract/*
