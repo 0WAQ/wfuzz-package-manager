@@ -1,4 +1,5 @@
 .vscode
 .wfuzztmp
 wfuzz-client/target
+wfuzz-client/Cargo.lock
 wfuzz-server/temp_extract/*
